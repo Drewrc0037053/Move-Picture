@@ -43,9 +43,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Move_Picture.Properties.Resources.Fenris1;
-            this.pictureBox1.Location = new System.Drawing.Point(38, 347);
+            this.pictureBox1.Location = new System.Drawing.Point(345, 201);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 174);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 283);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 586);
+            this.ClientSize = new System.Drawing.Size(852, 775);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -147,6 +147,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
